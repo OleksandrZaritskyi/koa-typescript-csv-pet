@@ -1,0 +1,6 @@
+name,email,phone,company
+User One,duplicate@test.com,+100,First Corp
+User Two,duplicate@test.com,+200,Second Corp
+User Three,unique1@test.com,+300,Third Corp
+User Four,duplicate@test.com,+400,Fourth Corp
+User Five,unique2@test.com,+500,Fifth Corp

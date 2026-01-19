@@ -1,0 +1,7 @@
+name,email,phone,company
+   Whitespace Name   ,whitespace@test.com,+111,  Whitespace Corp  
+,,,
+Empty All,empty@test.com,,
+   ,onlyspaces@test.com,+222,Only Spaces Name
+Tab	Name,tab@test.com,+333,Tab Company
+Normal User,normal@test.com,+444,Normal Inc

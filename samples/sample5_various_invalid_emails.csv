@@ -1,0 +1,11 @@
+name,email,phone,company
+,,,
+Missing Everything,,,
+,invalid,, 
+@invalid.com,@invalid.com,+111,Bad Email Format
+user@,user@,+222,Incomplete Email
+Good One,good@example.com,+333,Valid Company
+test@test,test@test,+444,No TLD
+.dot@start.com,.dot@start.com,+555,Dot Start
+end.@dot.com,end.@dot.com,+666,Dot End
+Final Valid,final@valid.org,,Last Corp

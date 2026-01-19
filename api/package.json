@@ -1,0 +1,47 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "private": true,
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc -p tsconfig.build.json",
+    "start": "node dist/index.js",
+    "lint": "tsc --noEmit",
+    "migrate": "node migrate.cjs",
+    "migrate:up": "node migrate.cjs up",
+    "migrate:down": "node migrate.cjs down",
+    "migrate:create": "node-pg-migrate create --migration-file-language cjs -m migrations"
+  },
+  "dependencies": {
+    "@koa/cors": "^5.0.0",
+    "@koa/router": "^15.0.0",
+    "bull": "^4.12.2",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.4.5",
+    "ioredis": "^5.3.2",
+    "koa": "^3.0.0",
+    "koa-body": "^6.0.1",
+    "koa-bodyparser": "^4.4.0",
+    "pg": "^8.11.5",
+    "uuid": "^9.0.1",
+    "zod": "^3.23.8",
+    "node-pg-migrate": "^7.9.1"
+  },
+  "overrides": {
+    "is-generator-function": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/formidable": "^3.4.5",
+    "@types/koa": "^2.15.0",
+    "@types/koa-bodyparser": "^4.3.11",
+    "@types/koa__cors": "^5.0.0",
+    "@types/koa__router": "^12.0.1",
+    "@types/node": "^20.11.19",
+    "@types/pg": "^8.11.6",
+    "@types/uuid": "^9.0.8",
+    "tsx": "^4.7.1",
+    "typescript": "^5.3.3"
+  }
+}

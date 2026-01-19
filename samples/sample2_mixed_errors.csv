@@ -1,0 +1,7 @@
+name,email,phone,company
+Valid User,valid@test.com,+111,Company A
+,missing-name@test.com,+222,Company B
+No Email,,+333,Company C
+Bad Email,not-an-email,+444,Company D
+Missing Company,nocompany@test.com,+555,
+Another Valid,another@test.com,,Valid Corp
